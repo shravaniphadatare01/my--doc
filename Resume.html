@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Resume Form</title>
+</head>
+
+<body style="font-family: Arial, sans-serif; background-color: #f0f0f0; margin: 0; padding: 20px;">
+
+    <div
+        style="max-width: 500px; margin: auto; background-color: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+        <h2 style="text-align: center;">Resume Form</h2>
+
+        <form action="#" method="post" enctype="multipart/form-data">
+
+            <label>Full Name:<br>
+                <input type="text" name="fullName" required style="width: 100%; padding: 8px;">
+            </label><br><br>
+
+            <label>Email Address:<br>
+                <input type="email" name="email" required style="width: 100%; padding: 8px;">
+            </label><br><br>
+
+            <label>Phone Number:<br>
+                <input type="tel" name="phone" required style="width: 100%; padding: 8px;">
+            </label><br><br>
+
+            <label>Date of Birth:<br>
+                <input type="date" name="dob" required style="width: 100%; padding: 8px;">
+            </label><br><br>
+
+            <label>Gender:<br>
+                <select name="gender" required style="width: 100%; padding: 8px;">
+                    <option value="">Select</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select>
+            </label><br><br>
+
+            <label>Nationality:<br>
+                <input type="text" name="nationality" required style="width: 100%; padding: 8px;">
+            </label><br><br>
+
+            <label>Address:<br>
+                <textarea name="address" rows="2" required style="width: 100%; padding: 8px;"></textarea>
+            </label><br><br>
+
+            <label>LinkedIn Profile URL:<br>
+                <input type="url" name="linkedin" style="width: 100%; padding: 8px;">
+            </label><br><br>
+
+            <label>GitHub Profile URL:<br>
+                <input type="url" name="github" style="width: 100%; padding: 8px;">
+            </label><br><br>
+
+            <label>Upload Profile Photo:<br>
+                <input type="file" name="profilePhoto" accept="image/*" style="width: 100%;">
+            </label><br><br>
+
+            <label>Upload Resume (PDF only):<br>
+                <input type="file" name="resume" accept="application/pdf" required style="width: 100%;">
+            </label><br><br>
+
+            <label>Highest Qualification:<br>
+                <input type="text" name="qualification" required style="width: 100%; padding: 8px;">
+            </label><br><br>
+
+            <label>College / University Name:<br>
+                <input type="text" name="college" required style="width: 100%; padding: 8px;">
+            </label><br><br>
+
+            <label>Year of Graduation:<br>
+                <input type="number" name="graduationYear" min="1900" max="2099" required
+                    style="width: 100%; padding: 8px;">
+            </label><br><br>
+
+            <label>Technical Skills:<br>
+                <input type="text" name="skills" placeholder="HTML, CSS, JavaScript" required
+                    style="width: 100%; padding: 8px;">
+            </label><br><br>
+
+            <label>Languages Known:<br>
+                <input type="text" name="languagesKnown" style="width: 100%; padding: 8px;">
+            </label><br><br>
+
+            <label>Hobbies:<br>
+                <input type="text" name="hobbies" style="width: 100%; padding: 8px;">
+            </label><br><br>
+
+            <label>
+                <input type="checkbox" name="declaration" required>
+                I declare that all information provided is true and accurate.
+            </label><br><br>
+
+            <div style="text-align: center;">
+                <button type="submit"
+                    style="padding: 10px 20px; background-color: #4285f4; color: white; border: none; border-radius: 4px; font-size: 16px;">Submit</button>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
